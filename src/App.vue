@@ -21,6 +21,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 header {
@@ -42,5 +43,12 @@ nav {
 nav a {
   text-decoration: none;
   color: #0070f3;
+}
+
+@media (max-width: 755px) {
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 </style>

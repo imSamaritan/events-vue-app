@@ -23,13 +23,14 @@ defineProps({
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 16px;
-  margin: 16px;
+  padding: 1.3rem 1.5rem;
+  margin: 1.2rem auto;
   width: 100%;
   text-align: center;
   border: 1px solid #333;
   cursor: pointer;
   transition: all 0.3s ease;
+  box-sizing: border-box;
 }
 .card h2 {
   font-size: 1.5rem;
